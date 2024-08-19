@@ -30,7 +30,7 @@
             strings: typed_strings.split(', '),
             typeSpeed: 100,
             backSpeed: 20,
-            smartBackspace: false,
+            smartBackspace: true,
             loop: true
         });
     }
