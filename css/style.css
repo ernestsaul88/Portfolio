@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-  --primary: #f99417;
-  --secondary: #363062;
+  --primary: #00B87B;
+  --secondary: #314355;
   --light: #F2F2F2;
-  --dark: #363062;
+  --dark: #2C3E50;
 }
 
 #spinner {
@@ -58,12 +58,12 @@
 }
 
 .btn.btn-primary {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .typed-cursor {
   font-size: 25px;
-  color: var(--primary);
+  color: var(--light);
 }
 
 .back-to-top {
@@ -85,7 +85,7 @@
 }
 
 .back-to-top i:hover {
-  color: var(--light);
+  color: var(--dark);
 }
 
 .back-to-top {
@@ -124,7 +124,7 @@
   height: 10px;
   bottom: -4px;
   left: 0;
-  border: 2px solid var(--primary);
+  border: 2px solid var(--light);
   border-radius: 10px;
 }
 
@@ -136,7 +136,7 @@
   bottom: 0;
   left: 15px;
   border-radius: 2px;
-  background: var(--primary);
+  background: var(--light);
 }
 
 .progress {
@@ -177,7 +177,7 @@
   top: 50%;
   left: 50%;
   font-size: 90px;
-  background: rgba(199, 195, 193, 0.9);
+  background: rgba(44, 62, 80, .9);
   opacity: 0;
   transition: .5s;
 }
